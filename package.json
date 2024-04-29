@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-2024",
+  "version": "1.0.0",
+  "description": "Node2024",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --env-file=.env server2.js"
+  },
+  "author": "Maher Mohammed",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
